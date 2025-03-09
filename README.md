@@ -7,6 +7,11 @@ One main purpose of the project is to make easy-to-remember links.
 ### Adding new links
 To add a new link, simply add it to the [`src/links.json`](src/links.json) file.
 
+For example, if you added `"2025-summer-activity": "http://facebook.com/events/26820394817263"`, when someone goes to `chayoteward.org/2025-summer-activity`, it would take them to `http://facebook.com/events/26820394817263`.
+
+> [!IMPORTANT]
+> Be sure to add a comma between the previous last list item and your new list item, otherwise it gets upset.
+
 Once it's saved here on GitHub, the site will automatically re-build and re-deploy using GitHub Actions; see [`.github/workflows/deploy.yml`](.github/workflows/deploy.yml) for details.
 
 ### Remembering the links
